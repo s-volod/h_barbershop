@@ -12,7 +12,7 @@
 	<title>Barbershop "Barberia"</title>
 </head>
 <body>
-	<!-- <header class="bar-header">
+	<header class="bar-header">
 		<nav>
 			<ul class="bar-header-menu">
 				<li><a href="#">New</a></li>
@@ -25,7 +25,7 @@
 			<h1>Barbershop<br>
 			<span class="br-header-h1">"Barberia"</span>
 			</h1>	
-	</header> -->
+	</header>
 
 	<main class="bar-main">
 		<article class="bar-main-atricle-news">
@@ -36,15 +36,15 @@
 					 perspiciatis reiciendis odio laborum nulla quaerat eius animi ratione facilis!
 				</p>
 			
-				<p>24/09/2019</p>
+				<p class="article-date">24/09/2019</p>
 			</span>
-			<a href="#all-news.html">All News</a>
+			<a class="link-news" href="#all-news.html">All News</a>
 		</article>
 
 		<article class="bar-main-article-gallery">
 			<h2>Gallery</h2>
 			<img src="img/small-bar-two-man.jpg" alt="Two man" >
-			<a href="#">Open Gallery</a>
+			<a class="link-gallery" href="#">Open Gallery</a>
 		</article>
 
 		<article class="bar-main-article-contact-us">
@@ -53,11 +53,14 @@
 				<label for="email">
 				Email
 				<input type="email" name="email" id="email">
+				<br>
 				</label>
 				<label for="question">
 				Text
+				<br>
 				<textarea name="question" id="question" cols="30" rows="10"></textarea>
 				</label>
+				<br>
 				<input type="submit" name="submit" value="Ask us">
 			</form>
 		</article>
@@ -65,16 +68,16 @@
 		<article class="bar-main-article-enroll">
 			<h2>Enroll</h2>
 			<form action="" method="POST">
-				<label for="date">Date<input type="date" id="date"></label>
-				<label for="time">Time<input type="time" id="time"></label>
-				<label for="name">Name<input type="text" id="name"></label>
-				<label for="phone">Phone<input type="tel" id="phone" minlength="10"></label>
+				<label for="date">Date <input type="date" id="date"></label><br>
+				<label for="time">Time <input type="time" id="time"></label><br>
+				<label for="name">Name <input type="text" id="name"></label><br>
+				<label for="phone">Phone <input type="tel" id="phone" minlength="10"></label><br>
 				<input type="submit" name="enroll-submit" value="Enroll">
 			</form>
 		</article>		
 	</main>
 
-	<!-- <footer class="bar-footer">
+	<footer class="bar-footer">
 		<h2>Location</h2>
 		<div class="bar-footer-maps">			
 			<span class="bar-footer-image">
@@ -97,12 +100,12 @@
 	
 			<span class="bar-footer-social">
 				<ul>
-					<li><a href="#">Facebook</a></li>
-					<li><a href="#">Instagram</a></li>
-					<li><a href="#">Telegram</a></li>
+					<li><a class="footer-social-button" href="#">Facebook</a></li>
+					<li><a class="footer-social-button" href="#">Instagram</a></li>
+					<li><a class="footer-social-button" href="#">Telegram</a></li>
 				</ul>
 			</span>
 		</div>
-	</footer> -->
+	</footer>
 </body>
 </html>
