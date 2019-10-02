@@ -62,6 +62,10 @@ main article h2,p{
 	text-align: center;
 }
 
+.bar-main-article-text{
+    text-align: left;
+}
+
 .article-date{
 	text-align: left;
 	margin-left: 1rem;
