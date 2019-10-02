@@ -12,40 +12,44 @@
 	<title>Barbershop "Barberia"</title>
 </head>
 <body>
-	<header class="bar-header">
+	<!-- <header class="bar-header">
 		<nav>
-			<ul>
+			<ul class="bar-header-menu">
 				<li><a href="#">New</a></li>
 				<li><a href="#">Gallery</a></li>
 				<li><a href="#">Enroll</a></li>
 				<li><a href="#">Contact Us</a></li>
-				<li><a href="#">Sign In</a></li>
-			</ul>
-		</nav>
-			<h1>Barbershop</h1>
-			<h2>"Barberia"</h2>
-	</header>
+				<li class="header-menu-sign"><a href="#">Sign In</a></li>
+			</ul> 
+		</nav>		
+			<h1>Barbershop<br>
+			<span class="br-header-h1">"Barberia"</span>
+			</h1>	
+	</header> -->
 
 	<main class="bar-main">
 		<article class="bar-main-atricle-news">
 			<h2>News</h2>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, quod.
-				Deserunt ad eaque praesentium repudiandae fuga molestias inventore, voluptates illo,
-				 perspiciatis reiciendis odio laborum nulla quaerat eius animi ratione facilis!
-			</p>
-			<p>24/09/2019</p>
-			<a href="#">All News</a>
+			<span class="main-article-text">
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, quod. 
+					Deserunt ad eaque praesentium repudiandae fuga molestias inventore, voluptates illo,
+					 perspiciatis reiciendis odio laborum nulla quaerat eius animi ratione facilis!
+				</p>
+			
+				<p>24/09/2019</p>
+			</span>
+			<a href="#all-news.html">All News</a>
 		</article>
 
 		<article class="bar-main-article-gallery">
 			<h2>Gallery</h2>
-			<img src="img/small-bar-two-man.jpg" alt="Two man" width="428" height="286">
+			<img src="img/small-bar-two-man.jpg" alt="Two man" >
 			<a href="#">Open Gallery</a>
 		</article>
 
 		<article class="bar-main-article-contact-us">
 			<h2>Contact Us</h2>
-			<form action="https://formspree.io/email@domain.tld" method="POST">
+			<form action="" method="POST">
 				<label for="email">
 				Email
 				<input type="email" name="email" id="email">
@@ -60,39 +64,45 @@
 
 		<article class="bar-main-article-enroll">
 			<h2>Enroll</h2>
-			<form action="https://formspree.io/email@domain.tld" method="POST">
+			<form action="" method="POST">
 				<label for="date">Date<input type="date" id="date"></label>
 				<label for="time">Time<input type="time" id="time"></label>
 				<label for="name">Name<input type="text" id="name"></label>
 				<label for="phone">Phone<input type="tel" id="phone" minlength="10"></label>
 				<input type="submit" name="enroll-submit" value="Enroll">
 			</form>
-		</article>
-		<article class="bar-main-article-maps">
-			<h2>Maps</h2>
-			<span class="bar-main-article-image">
-				<img src="img/maps-to.jpg" alt="path to us">
-			</span>
-		</article>
+		</article>		
 	</main>
 
-	<footer class="bar-footer">
+	<!-- <footer class="bar-footer">
 		<h2>Location</h2>
-		<address>
-			<p>Address: city, street 13/1</p>
-			<p>Phone: 0 </p>
-		</address>
-		<br>
-		<hr>
-			<p>Working day</p>
-			<p>10:00 - 22:00</p>
-		<span class="bar-footer-social">
-			<ul>
-				<li><a href="#">Facebook</a></li>
-				<li><a href="#">Instagram</a></li>
-				<li><a href="#">Telegram</a></li>
-			</ul>
-		</span>
-	</footer>
+		<div class="bar-footer-maps">			
+			<span class="bar-footer-image">
+				<img src="img/maps-to.jpg" alt="path to us">
+			</span>
+		</div>
+
+		<div class="bar-footer-common">
+			<span class="bar-footer-address">
+				<address>
+					<p>Address: city, street 13/1</p>
+					<p>Phone: 0 </p>			
+				</address>
+			</span>		
+	
+			<span class="bar-footer-hour">
+				<p>Working day</p>
+				<p>10:00 - 22:00</p>
+			</span>
+	
+			<span class="bar-footer-social">
+				<ul>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Instagram</a></li>
+					<li><a href="#">Telegram</a></li>
+				</ul>
+			</span>
+		</div>
+	</footer> -->
 </body>
 </html>
