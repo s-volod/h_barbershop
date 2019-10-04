@@ -70,6 +70,8 @@ main article h2,p{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+
+    position: relative;
 }
 .article-date{
 	text-align: left;
@@ -93,6 +95,9 @@ main .bar-main-article-gallery img{
 	border: 1px solid black;
 	padding: 5px;
 	margin-left: 15px;
+
+    position: absolute;
+    top: 21rem;
 }
 
 .link-gallery{
@@ -100,12 +105,17 @@ main .bar-main-article-gallery img{
 	padding: 5px;
 	margin-left: 15px;
     margin-top: 1rem;
+
+    position: absolute;
+    top: 20rem;
 }
 
 .article-gallery{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 0.2fr;
+
+    position: relative;
 }
 
 /*FOOTER*/
