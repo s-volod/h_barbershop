@@ -66,6 +66,11 @@ main article h2,p{
     text-align: left;
 }
 
+.main-article-text{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
 .article-date{
 	text-align: left;
 	margin-left: 1rem;
@@ -94,6 +99,13 @@ main .bar-main-article-gallery img{
 	border: 1px solid black;
 	padding: 5px;
 	margin-left: 15px;
+    margin-top: 1rem;
+}
+
+.article-gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.2fr;
 }
 
 /*FOOTER*/
